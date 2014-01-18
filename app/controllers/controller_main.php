@@ -9,6 +9,6 @@ class Controller_Main extends Controller
     {
         //$this -> model -> getInfo();
 
-        $this->view->generate('main_view.php', $this->template, $page, $this->data);
+        $this->view->generate('main_view.php', $this->template, null, $this->data);
     }
 }
