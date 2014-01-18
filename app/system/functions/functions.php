@@ -16,3 +16,8 @@ function getData($query, $params = array())
     }
     return $data;
 }
+
+function generateJSONReply($arr) {
+    header('Content-type: application/json');
+    echo json_encode($arr);
+}
