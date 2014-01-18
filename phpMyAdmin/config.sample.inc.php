@@ -28,12 +28,24 @@ $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
 /* Server parameters */
-$cfg['Servers'][$i]['host'] = 'localhost';
-$cfg['Servers'][$i]['connect_type'] = 'tcp';
-$cfg['Servers'][$i]['compress'] = false;
-/* Select mysql if your server does not have mysqli */
-$cfg['Servers'][$i]['extension'] = 'mysqli';
-$cfg['Servers'][$i]['AllowNoPassword'] = false;
+if($_SERVER['HTTP_HOST'] == 'hakaton-project.azurewebsites.net') {
+    $cfg['Servers'][$i]['host'] = 'eu-cdbr-azure-west-b.cloudapp.net';
+    $cfg['Servers'][$i]['connect_type'] = 'tcp';
+    $cfg['Servers'][$i]['compress'] = false;
+    /* Select mysql if your server does not have mysqli */
+    $cfg['Servers'][$i]['extension'] = 'mysqli';
+    $cfg['Servers'][$i]['AllowNoPassword'] = false;
+}
+else {
+    $cfg['Servers'][$i]['host'] = 'localhost';
+    $cfg['Servers'][$i]['connect_type'] = 'tcp';
+    $cfg['Servers'][$i]['compress'] = false;
+    /* Select mysql if your server does not have mysqli */
+    $cfg['Servers'][$i]['extension'] = 'mysqli';
+    $cfg['Servers'][$i]['AllowNoPassword'] = true;
+}
+
+
 
 /*
  * phpMyAdmin configuration storage settings.
