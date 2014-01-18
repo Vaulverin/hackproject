@@ -35,7 +35,7 @@
       <file leaf-file-name="model_test.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/model_test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="69" selection-start="755" selection-end="755" vertical-scroll-proportion="0.61130136" vertical-offset="0" max-vertical-offset="584">
+            <state line="17" column="30" selection-start="527" selection-end="527" vertical-scroll-proportion="0.494863" vertical-offset="0" max-vertical-offset="584">
               <folding />
             </state>
           </provider>
@@ -497,7 +497,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/model_test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="69" selection-start="755" selection-end="755" vertical-scroll-proportion="0.61130136" vertical-offset="0" max-vertical-offset="584">
+        <state line="17" column="30" selection-start="527" selection-end="527" vertical-scroll-proportion="0.494863" vertical-offset="0" max-vertical-offset="584">
           <folding />
         </state>
       </provider>
