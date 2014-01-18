@@ -1,0 +1,363 @@
+#game {
+    width: 940px;
+    height: 445px;
+    display: inline-block;
+    font-family: "Open Sans";
+    position: relative;
+}
+.startScreen {
+    position: relative;
+    width: 932px;
+    height: 437px;
+    border: 4px solid #669999;
+    background: url('/images/forGame/startScreenBG.png') no-repeat;
+}
+.mainMenu {
+    position: absolute;
+    left: 432px;
+    top: 63px;
+    width: 500px;
+    height: 375px;
+}
+.mainMenuTitle {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    line-height: 33px;
+    color: #669999;
+    font-family: "Intro";
+}
+.mainMenuText {
+    width: 407px;
+    margin: 25px 1px;
+    font-size: 16px;
+    line-height: 18px;
+}
+.mainMenuLevels {
+    color: #336666;
+    font-size: 18px;
+    padding: 0;
+    font-family: "Intro";
+    margin: 0 0 36px -1px;
+}
+.mainMenuLevels li {
+    display: inline;
+    background: url('/images/forGame/radio.png') left no-repeat;
+    height: 21px;
+    padding-left: 31px;
+    margin-right: 22px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.mainMenuLevels li:hover {
+    opacity: 1;
+}
+.mainMenuLevels .selectedItem {
+    background: url('/images/forGame/radioSelected.png') left no-repeat;
+}
+
+.playButton {
+    display: inline-block;
+    width: 228px;
+    height: 48px;
+    position: relative;
+    background: url("/images/forGame/playBG.png");
+    cursor: pointer;
+}
+.playButton:hover {
+    background: url("/images/forGame/playBGHover.png");
+}
+.playButtonText {
+    position: absolute;
+    width: 67px;
+    height: 14px;
+    top: 18px;
+    left: 79px;
+    background: url("/images/forGame/play.png");
+}
+.playButtonShadow {
+    position: absolute;
+    width: 240px;
+    height: 24px;
+    top: 48px;
+    left: -4px;
+    background: url("/images/forGame/shadow.png");
+}
+.gameField {
+    width: 696px;
+    height: 442px;
+    border: 2px solid #669999;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+.gameMenu {
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    height: 446px;
+}
+.gameSubmenu {
+    width: inherit;
+    height: 353px;
+    background: url('/images/forGame/submenuBG.png') no-repeat;
+}
+.replayButton {
+    width: inherit;
+    height: 93px;
+    background: url('/images/forGame/replayButton.png') no-repeat;
+    position: relative;
+    cursor: pointer;
+}
+.replayButton:hover {
+    background: url('/images/forGame/replayButtonHover.png') no-repeat;
+}
+.replayText{
+    position: absolute;
+    top: 37px;
+    left: 35px;
+    line-height: 13px;
+    font-family: Intro;
+    font-size: 18px;
+    color: #003333;
+    opacity: 0.7;
+    text-shadow: 0px 1px 1px #ccffff;
+    filter: dropshadow(color=#ccffff, offx=0, offy=1);
+}
+.gameMenuShadow {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -3px;
+    width: 297px;
+    height: 542px;
+    background: url('/images/forGame/gameMenuShadow.png');
+}
+.countDown {
+    width: inherit;
+    height: 105px;
+    position: relative;
+}
+.count {
+    position: absolute;
+    top: 41px;
+    left: 34px;
+    font-family: Intro;
+    font-size: 36px;
+    color: #003333;
+    opacity: 0.7;
+    text-shadow: 0px 1px 1px #ccffff;
+    filter: dropshadow(color=#ccffff, offx=0, offy=1);
+    line-height: 27px;
+}
+.clock {
+    position: absolute;
+    top: 23px;
+    left: 108px;
+    width: 56px;
+    height: 63px;
+    background: url("/images/forGame/clock.png");
+    opacity: 0.7;
+}
+.separator {
+    width: inherit;
+    height: 2px;
+    background: url("/images/forGame/separator.png") repeat-x;
+}
+.menuLevel {
+    width: inherit;
+    height: 166px;
+}
+.menuLevel .mainMenuLevels li {
+    display: block;
+    margin: 0 0 30px;
+    background: url('/images/forGame/radioSub.png') left no-repeat;
+    height: 17px;
+    padding-left: 25px;
+    line-height: 16px;
+}
+.menuLevel .mainMenuLevels .selectedItem {
+    background: url('/images/forGame/radioSubSelected.png') left no-repeat;
+}
+.menuLevel .mainMenuLevels {
+    position: absolute;
+    margin: 30px 0 0 10px;
+    z-index: 1;
+    color: #003333;
+    text-shadow: 0px 1px 1px #ccffff;
+    filter: dropshadow(color=#ccffff, offx=0, offy=1);
+}
+
+.score {
+    width: inherit;
+    height: 76px;
+    position: relative;
+}
+.scoreCount {
+    position: absolute;
+    top: 24px;
+    left: 75px;
+    font-family: Intro;
+    font-size: 18px;
+    color: #003333;
+    opacity: 0.7;
+    text-shadow: 0px 1px 1px #ccffff;
+    filter: dropshadow(color=#ccffff, offx=0, offy=1);
+    line-height: 27px;
+}
+.scoreCount .sCount, .scoreCount .maxCount{
+    font-size: 36px;
+}
+.star {
+    position: absolute;
+    background: url("/images/forGame/star.png");
+    opacity: 0.7;
+    top: 18px;
+    left: 22px;
+    width: 37px;
+    height: 37px;
+}
+
+/*Game mover screen*/
+.gameOverText {
+    position: absolute;
+    font-size: 16px;
+    top: 119px;
+    left: 211px;
+    line-height: 18px;
+}
+.gameOverImg {
+    position: absolute;
+    left: 219px;
+    top: 226px;
+    background: url("/images/forGame/gameOver.png");
+    width: 278px;
+    height: 134px;
+}
+
+/*Cards*/
+.cardsWrapper {
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+    position: absolute;
+}
+.card {
+    width: 81px;
+    height: 81px;
+    margin: 0 4px 4px 0;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    z-index: 2;
+}
+.card img {
+    position: absolute;
+    z-index: 1;
+}
+
+/*Winner Screen*/
+.winnerBG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("/images/forGame/winnerBG.png");
+}
+
+.winnerTitle {
+    color: #cccc00;
+    font-size: 40px;
+    font-family: Intro;
+    position: absolute;
+    top: 50px;
+    left: 66px;
+    margin: 0;
+    padding: 0;
+}
+.winnerText {
+    position: absolute;
+    top: 95px;
+    left: 68px;
+}
+.winnerShare {
+    position: absolute;
+    top: 187px;
+    left: 67px;
+}
+
+#fb_game, #tw_game, #vk_game {
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+    margin-left: 17px;
+    vertical-align: middle;
+}
+
+#fb_game {
+    background: url("/images/forGame/fb.png");
+}
+#vk_game {
+    background: url("/images/forGame/vk.png");
+    margin-left: 23px;
+}
+#tw_game {
+    background: url("/images/forGame/tw.png");
+}
+
+
+/*Message Screen*/
+.messageBG {
+    position: absolute;
+    z-index: 4;
+    top: 57px;
+    left: 74px;
+    width: 548px;
+    height: 337px;
+    background: url("/images/forGame/messageBG.png") repeat;
+}
+.closeMessage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: black url("/images/forGame/closeButton.png") center no-repeat;
+    width: 16px;
+    height: 16px;
+    padding: 5px;
+    cursor: pointer;
+}
+.closeMessage:hover {
+    background: white url("/images/forGame/closeButtonHovered.png") center no-repeat;
+}
+.textMessage {
+    position: absolute;
+    z-index: 4;
+    top: 138px;
+    left: 138px;
+    color: white;
+}
+.buttonYES, .buttonNO {
+    position: absolute;
+    z-index: 4;
+    top: 228px;
+    background: white;
+    color: black;
+    font-size: 18px;
+    font-family: Intro;
+    width: 130px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    cursor: pointer;
+}
+.buttonYES:hover, .buttonNO:hover {
+    background: #669999;
+    color: white;
+}
+.buttonYES {
+    left: 137px;
+}
+.buttonNO {
+    left: 285px;
+}
