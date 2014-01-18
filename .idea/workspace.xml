@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller_main.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="controller_main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/controller_main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="62" selection-start="292" selection-end="292" vertical-scroll-proportion="0.32020548" vertical-offset="0" max-vertical-offset="584">
+            <state line="11" column="62" selection-start="292" selection-end="292" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -63,6 +63,24 @@
         <entry file="file://$PROJECT_DIR$/app/system/functions/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="33" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="476">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.config" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="50" selection-start="263" selection-end="263" vertical-scroll-proportion="0.19508196" vertical-offset="0" max-vertical-offset="610">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="28" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
@@ -95,6 +113,7 @@
         <option value="$PROJECT_DIR$/app/core/route.php" />
         <option value="$PROJECT_DIR$/app/controllers/controller_test.php" />
         <option value="$PROJECT_DIR$/app/controllers/controller_main.php" />
+        <option value="$PROJECT_DIR$/web.config" />
       </list>
     </option>
   </component>
@@ -431,13 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/model_main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="1" selection-start="0" selection-end="38" vertical-scroll-proportion="0.11643836" vertical-offset="0" max-vertical-offset="584">
@@ -455,13 +467,6 @@
     <entry file="file://$PROJECT_DIR$/app/core/route.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="0" selection-start="932" selection-end="932" vertical-scroll-proportion="0.1824687" vertical-offset="612" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/system/functions/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="33" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
@@ -489,7 +494,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/controller_main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="62" selection-start="292" selection-end="292" vertical-scroll-proportion="0.32020548" vertical-offset="0" max-vertical-offset="584">
+        <state line="11" column="62" selection-start="292" selection-end="292" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/system/functions/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="33" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="28" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="50" selection-start="263" selection-end="263" vertical-scroll-proportion="0.19508196" vertical-offset="0" max-vertical-offset="610">
           <folding />
         </state>
       </provider>
