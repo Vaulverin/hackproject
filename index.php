@@ -7,15 +7,10 @@ require_once 'application/bootstrap.php';*/
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Game</title>
-    <link href="/css/game.css" rel="stylesheet" type="text/css" />
-    <link href="/css/fonts.css" rel="stylesheet" type="text/css" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="/js/jquery.imagecube.js" type="text/javascript"></script>
+    <title>Hackaton</title>
 
-    <script type="text/javascript" src="js/game.js"></script>
 </head>
 <body>
-      <div id="game"></div>
+      It's working!<br/><?=$_SERVER['HTTP_HOST']?>
 </body>
 </html>
