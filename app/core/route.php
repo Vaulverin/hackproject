@@ -12,23 +12,22 @@
 			$routes = explode('/', $_SERVER['REQUEST_URI']);
 
 			// получаем имя контроллера
-			if ( !empty($routes[2]) )
+			if ( !empty($routes[1]) )
 			{	
-				$controller_name = $routes[2];
+				$controller_name = $routes[1];
 			}
-			
 			// получаем имя экшена
+			if ( !empty($routes[2]) )
+			{
+				$action_name = $routes[2];
+			}
 			if ( !empty($routes[3]) )
 			{
-				$action_name = $routes[3];
+				$value = $routes[3];
 			}
-			if ( !empty($routes[4]) )
-			{
-				$value = $routes[4];
-			}
-            if ( !empty($routes[5]) )
+            if ( !empty($routes[4]) )
             {
-                $id = $routes[5];
+                $id = $routes[4];
             }
 
 			// добавляем префиксы
@@ -39,7 +38,9 @@
 			// подцепляем файл с классом модели (файла модели может и не быть)
 
 			$model_file = strtolower($model_name).'.php';
+
 			$model_path = "app/models/".$model_file;
+
 			if(file_exists($model_path))
 			{
 				include "app/models/".$model_file;
@@ -48,7 +49,7 @@
 			// подцепляем файл с классом контроллера
 			$controller_file = strtolower($controller_name).'.php';
 			$controller_path = "app/controllers/".$controller_file;
-			if(file_exists($controller_path))
+            if(file_exists($controller_path))
 			{
 				include "app/controllers/".$controller_file;
 			}
@@ -64,7 +65,6 @@
 			// создаем контроллер
 			$controller = new $controller_name;
 			$action = $action_name;
-			
 			if(method_exists($controller, $action))
 			{
 				// вызываем действие контроллера

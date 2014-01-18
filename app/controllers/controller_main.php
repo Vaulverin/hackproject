@@ -5,7 +5,7 @@ class Controller_Main extends Controller
     /** @var $model Model_Main * */
     protected $model;
 
-    public function action_show($page)
+    public function action_index($page)
     {
         //$this -> model -> getInfo();
 
