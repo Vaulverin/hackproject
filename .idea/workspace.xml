@@ -71,7 +71,7 @@
       <file leaf-file-name="web.config" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="50" selection-start="263" selection-end="263" vertical-scroll-proportion="0.19508196" vertical-offset="0" max-vertical-offset="610">
+            <state line="5" column="15" selection-start="192" selection-end="192" vertical-scroll-proportion="0.13934426" vertical-offset="0" max-vertical-offset="610">
               <folding />
             </state>
           </provider>
@@ -515,7 +515,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="263" selection-end="263" vertical-scroll-proportion="0.19508196" vertical-offset="0" max-vertical-offset="610">
+        <state line="5" column="15" selection-start="192" selection-end="192" vertical-scroll-proportion="0.13934426" vertical-offset="0" max-vertical-offset="610">
           <folding />
         </state>
       </provider>
