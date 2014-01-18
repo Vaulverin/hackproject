@@ -44,7 +44,7 @@ else {
     $cfg['Servers'][$i]['extension'] = 'mysqli';
     $cfg['Servers'][$i]['AllowNoPassword'] = true;
 }
-
+//var_dump('asds');
 
 
 /*

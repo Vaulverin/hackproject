@@ -32,11 +32,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.sample.inc.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/phpMyAdmin/config.sample.inc.php">
+      <file leaf-file-name="config.inc.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/phpMyAdmin/config.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="51" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.56335616" vertical-offset="283" max-vertical-offset="2890">
+            <state line="46" column="2" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.7671233" vertical-offset="334" max-vertical-offset="2890">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpMyAdmin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="152" column="50" selection-start="4455" selection-end="4461" vertical-scroll-proportion="-3.5686274" vertical-offset="2402" max-vertical-offset="11203">
+              <folding>
+                <marker date="1389925270000" expanded="false" signature="3180:3207" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,6 +73,7 @@
         <option value="$PROJECT_DIR$/app/views/template_view.php" />
         <option value="$PROJECT_DIR$/app/views/main_view.php" />
         <option value="$PROJECT_DIR$/phpMyAdmin/config.sample.inc.php" />
+        <option value="$PROJECT_DIR$/phpMyAdmin/config.inc.php" />
       </list>
     </option>
   </component>
@@ -359,9 +371,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpMyAdmin/config.sample.inc.php">
+    <entry file="file://$PROJECT_DIR$/phpMyAdmin/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="51" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.56335616" vertical-offset="283" max-vertical-offset="2890">
+        <state line="152" column="50" selection-start="4455" selection-end="4461" vertical-scroll-proportion="-3.5686274" vertical-offset="2402" max-vertical-offset="11203">
+          <folding>
+            <marker date="1389925270000" expanded="false" signature="3180:3207" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpMyAdmin/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="2" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.7671233" vertical-offset="334" max-vertical-offset="2890">
           <folding />
         </state>
       </provider>

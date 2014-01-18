@@ -299,7 +299,7 @@ function PMA_getRelationsParamDiagnostic($cfgRelation)
         $retval .= __(
             'Enable advanced features in configuration file '
             . '(<code>config.inc.php</code>), for example by '
-            . 'starting from <code>config.sample.inc.php</code>.'
+            . 'starting from <code>config.inc.php</code>.'
         );
         $retval .= ' ' . PMA_Util::showDocu('setup', 'quick-install');
         $retval .= '</li>';
